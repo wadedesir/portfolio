@@ -5,33 +5,39 @@
   	<meta name="description" content="Your description goes here">
   	<meta name="keywords" content="one, two, three">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script src="https://kit.fontawesome.com/aa1a2a1c33.js" crossorigin="anonymous"></script>
 
 		<title>Wade Desir</title>
 
 		<!-- external CSS link -->
+		<title>Wade Desir</title>
+
+		<link rel="stylesheet" href="assets/fontawesome/css/all.css"> <!-- stylesheet for all icons -->
 		<link rel="stylesheet" href="assets/css/reset.css">
 		<link rel="stylesheet" href="assets/css/style.css">
 	</head>
 	<body>
 
 		<header id="home">
-			<section id="diamond">
+			<section class="headerLeft">
+				<div id="diamond">
+					<div class="profilePic">
 
+					</div>
+				</div>
 			</section>
 			<section class="headerRight">
-				<div class="">
-					<h2 class="title">Software Engineer</h2>
+				<div class="animatedTitle">
+					<h2 class="title">Software Engineer</h2> <!-- Title will be animated with different items. -->
 				</div>
 				<div class="headerInfo">
-					<p>??</p>
-					<p></p>
+					<p><span>Hi.</span> My name is Wedefegerson Desir, but you can just call me:</p>
+					<h1>Wade</h1>
 				</div>
 				<div class="socials">
 					<ul>
-						<li><a href="#"></a></li>
-						<li><a href="#"></a></li>
-						<li><a href="#"></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-github"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
 					</ul>
 				</div>
 				<div class="links">
@@ -42,18 +48,20 @@
 			</section>
 		</header>
 
-		<section class="leftBanner"> 	<!-- Social Media Links -->
+		<section class="leftBanner"> 	<!-- Social Media Links // Only becomes activated after user scrolls past them -->
 			<ul>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
+				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fab fa-github"></i></a></li>
+				<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
 			</ul>
 		</section>
 
-		<section class="rightBanner"> 	<!-- Page Navigations -->
+		<section class="rightBanner"> 	<!-- Page Navigation -->
 			<h3>Wade</h3>
 			<nav>
 				<ul>
+					<li><i class="fas fa-moon"></i></li>
+					<li><i class="fas fa-sun"></i></li>
 					<li><a href="#home">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#experience">Experience</a></li>
@@ -65,93 +73,125 @@
 		</section>
 
 		<main>
-			<section id="about">
-				<div class="profile">
-					<h3>Profile</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<section id="about" class="aboutClass">
+				<div class="aboutLeft">
+					<!-- Placeholder Space for my profile pic -->
 				</div>
-				<div class="profileExtras">
-					<p><span>Website:</span></p>
-					<p><span>Email:</span></p>
-					<p><span>Home:</span></p>
-					<p><span>Freelance:</span></p>
-				</div>
-			</section>
-
-			<section id="experience">
-				<h3>Experience</h3>
-				<div class="jobTitle">
-					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</div>
-				<div class="jobIcons">
-					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</div>
-				<div class="jobDescription">
-					<div class="job">
-						<h4>Resilient Coders</h4>
-						<ul class="duties">
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
+				<div class="aboutRight">
+					<div class="profile">
+						<h3>About Me</h3>
+						<h4>profile</h4>
+						<p>At the age of 16, I put my first computer together. With no one around that I could go to for help, I did everything I could to make sure I had all the right information, the right parts, everything down to the right cables. When my computer turned on for the first time, I was hooked. I took that passion into the military and worked on their networks and servers. After serving for 5 years, I knew I wanted to stay working with computers and technology but I wanted to have more creativity and control over what I was working on. I am looking forward to taking my innate motivation and bringing it to your engineering team.</p>
 					</div>
-					<div class="job">
-						<h4>uBreakiFix</h4>
-						<ul class="duties">
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
-					<div class="job">
-						<h4>Plexim</h4>
-						<ul class="duties">
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
+					<div class="profileExtras">
+						<p><span>Website:</span></p>
+						<p><span>Email:</span></p>
+						<p><span>Home:</span></p>
+						<p><span>Freelance:</span></p>
 					</div>
 				</div>
 			</section>
 
-			<section id="skills">
-				<h3>Skills</h3>
-				<div class="skillScroll">
-					<i>icon</i>
-					<span>skill</span>
-					<p>description</p>
+			<section id="experience" class="expClass">
+				<div class="sectionTitle">
+					<h3>Experience</h3>
 				</div>
-				<div class="skillScroll">
-					<i>icon</i>
-					<span>skill</span>
-					<p>description</p>
-				</div>
-				<div class="skillScroll">
-					<i>icon</i>
-					<span>skill</span>
-					<p>description</p>
-				</div>
-				<div class="skillScroll">
-					<i>icon</i>
-					<span>skill</span>
-					<p>description</p>
+				<div class="jobContainer">
+
+					<div class="jobPosition">
+						<div class="positions">
+							<ul>
+								<li>Software Engineer</li>
+								<li>Lead Technician</li>
+								<li>Software Intern</li>
+							</ul>
+						</div>
+
+						<div class="icons">
+							<ul>
+								<li>i</li>
+								<li>i</li>
+								<li>i</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="jobDescription">
+						<div class="job">
+							<h4>Resilient Coders</h4>
+							<ul class="duties">
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+						<div class="job">
+							<h4>uBreakiFix</h4>
+							<ul class="duties">
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+						<div class="job">
+							<h4>Plexim</h4>
+							<ul class="duties">
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+
 				</div>
 			</section>
 
-			<section id="portfolio">
-				<h3>Portfolio</h3>
-				<nav>
+			<section id="skills" class="skillsClass"> <!-- Marquee like section which will be scroll based on user interaction -->
+				<div class="sectionTitle">
+					<h3>Skills</h3>
+				</div>
+				<div class="skillContainer">
+					<div class="skillScroll">
+						<i>icon</i>
+						<span>skill</span>
+						<p>description</p>
+					</div>
+					<div class="skillScroll">
+						<i>icon</i>
+						<span>skill</span>
+						<p>description</p>
+					</div>
+					<div class="skillScroll">
+						<i>icon</i>
+						<span>skill</span>
+						<p>description</p>
+					</div>
+					<div class="skillScroll">
+						<i>icon</i>
+						<span>skill</span>
+						<p>description</p>
+					</div>
+					<div class="skillScroll">
+						<i>icon</i>
+						<span>skill</span>
+						<p>description</p>
+					</div>
+					<div class="skillScroll">
+						<i>icon</i>
+						<span>skill</span>
+						<p>description</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="portfolio" class="portfolioClass"> <!-- Projects layed out in horizontal or vertical cards -->
+				<div class="sectionTitle">
+					<h3>Portfolio</h3>
+				</div>
+				<nav class="portfolioNav">
 					<ul>
 						<li>Projects</li>
 						<li>Website Imitations</li>
@@ -159,27 +199,29 @@
 					</ul>
 				</nav>
 
-				<div class="project">
+				<div class="projectContainer">
+					<div class="project">
 
-				</div>
-				<div class="project">
+					</div>
+					<div class="project">
 
-				</div>
-				<div class="project">
+					</div>
+					<div class="project">
 
-				</div>
-				<div class="project">
+					</div>
+					<div class="project">
 
-				</div>
-				<div class="project">
+					</div>
+					<div class="project">
 
-				</div>
-				<div class="project">
+					</div>
+					<div class="project">
 
+					</div>
 				</div>
 			</section>
 
-			<section id="contact">
+			<section id="contact" class="contactClass"> <!-- Simple material design for the contact -->
 				<h3>Contact</h3>
 				<span>Let's Connect!</span>
 				<p>If you have any questions or comments or just want to have a chat, Please reach out!</p>
@@ -194,7 +236,7 @@
 
 		<footer>
 			<span>Copyright (c) 2021</span>
-			<span>Wade Desir</span>
+			<span>Wedefegerson Desir</span>
 		</footer>
 
 		<script type="text/javascript" src="js/main.js"></script>
