@@ -2,15 +2,15 @@
 <html lang="en">
 	<head>
   	<meta charset="utf-8">
-  	<meta name="description" content="Your description goes here">
-  	<meta name="keywords" content="one, two, three">
+  	<meta name="description" content="Meet Me!">
+  	<meta name="keywords" content="portfolio, wdefegerson, resume">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<title>Wade Desir</title>
 
 		<!-- external CSS link -->
 		<title>Wade Desir</title>
 
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="assets/fontawesome/css/all.css"> <!-- stylesheet for all icons -->
 		<link rel="stylesheet" href="assets/css/reset.css">
 		<link rel="stylesheet" href="assets/css/style.css">
@@ -30,8 +30,9 @@
 					<h2 class="title">Software Engineer</h2> <!-- Title will be animated with different items. -->
 				</div>
 				<div class="headerInfo">
-					<p><span>Hi.</span> My name is Wedefegerson Desir, but you can just call me:</p>
-					<h1>Wade</h1>
+					<p class="smallName"><span>Hi.</span> My name is Wedefegerson Desir, but you can just call me:</p>
+					<h1 class="firstName">Wade</h1>
+					<h1 class="lastName">Đesir</h1>
 				</div>
 				<div class="socials">
 					<ul>
@@ -80,14 +81,18 @@
 				<div class="aboutRight">
 					<div class="profile">
 						<h3>About Me</h3>
-						<h4>profile</h4>
-						<p>At the age of 16, I put my first computer together. With no one around that I could go to for help, I did everything I could to make sure I had all the right information, the right parts, everything down to the right cables. When my computer turned on for the first time, I was hooked. I took that passion into the military and worked on their networks and servers. After serving for 5 years, I knew I wanted to stay working with computers and technology but I wanted to have more creativity and control over what I was working on. I am looking forward to taking my innate motivation and bringing it to your engineering team.</p>
+						<h4>Profile</h4>
+						<p>My name is Wedefgerson Desir and I was born in the small country of Haiti. I moved to the USA about at the age of 10 to join my father who wanted to build a better future for our family. After being exposed to new technology I had never seen before, I set out to learn and master this newfound wonder called the computer. I have since learned many programming languages, designed and created many custom projects and worked at a prestigious engineering company. Now my goal is to maximize my knowledge of the computing world as much as possible while sharing my many acquired skills and learning more as I go.</p>
 					</div>
 					<div class="profileExtras">
-						<p><span>Website:</span></p>
-						<p><span>Email:</span></p>
-						<p><span>Home:</span></p>
-						<p><span>Freelance:</span></p>
+						<div class="extrasLeft">
+							<p><span>Website:</span>&nbsp;<a href="https://desir.dev">https://www.desir.dev</a></p>
+							<p><span>Email:</span>&nbsp;wadedesir19@gmail.com</p>
+						</div>
+						<div class="extrasRight">
+							<p><span>Home:</span>&nbsp;Boston, MA, USA.</p>
+							<p><span>Freelance:</span>&nbsp;Unavailable</p>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -109,9 +114,9 @@
 
 						<div class="icons">
 							<ul>
-								<li>i</li>
-								<li>i</li>
-								<li>i</li>
+								<li><i class="fas fa-code"></i></li>
+								<li><i class="fas fa-tools"></i></li>
+								<li><i class="fas fa-laptop-code"></i></li>
 							</ul>
 						</div>
 					</div>
@@ -120,28 +125,28 @@
 						<div class="job">
 							<h4>Resilient Coders</h4>
 							<ul class="duties">
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
+								<li>Designed and developed full-stack applications across multiple platforms</li>
+								<li>Collaborated with a team of software engineers to create fullstack web applications.</li>
+								<li>Used best practices to meet and fulfill requests before deadline</li>
+								<li>Designed interactive websites with responsive features</li>
 							</ul>
 						</div>
 						<div class="job">
 							<h4>uBreakiFix</h4>
 							<ul class="duties">
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
+								<li>Managed inventory and ordering of computer, phone and various electronic parts</li>
+								<li>Made sure all back of store technicians were well trained</li>
+								<li>Provided supervision and assistance during repairs and decision making.</li>
+								<li>First point of contact for customers issues related to devices and technical errors</li>
 							</ul>
 						</div>
 						<div class="job">
 							<h4>Plexim</h4>
 							<ul class="duties">
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
+								<li>Designing and implementing of ATmega Code generation tool.</li>
+								<li>Worked in C, Makefile, MATLAB, and Lua to implement Code generation for embedded systems.</li>
+								<li>Carry out quality assurance tests to discover errors andoptimize software usability.</li>
+								<li>Designed Launchpad Interface PCB for ATmega 2560 and328p.</li>
 							</ul>
 						</div>
 					</div>
@@ -200,36 +205,61 @@
 				</nav>
 
 				<div class="projectContainer">
-					<div class="project">
-
+					<div class="project todo">
+						<div class="mask">
+							<span>To Do List</span>
+							<i class="fas fa-mouse-pointer"></i>
+						</div>
 					</div>
-					<div class="project">
-
+					<div class="project nyt">
+						<div class="mask">
+							<span>New York Times</span>
+							<i class="fas fa-mouse-pointer"></i>
+						</div>
 					</div>
-					<div class="project">
-
+					<div class="project lvlgnd">
+						<div class="mask">
+							<span>Level Ground</span>
+							<i class="fas fa-mouse-pointer"></i>
+						</div>
 					</div>
-					<div class="project">
-
+					<div class="project horoscope">
+						<div class="mask">
+							<span>Horoscope</span>
+							<i class="fas fa-mouse-pointer"></i>
+						</div>
 					</div>
-					<div class="project">
-
+					<div class="project huffpo">
+						<div class="mask">
+							<span>Huffington Post</span>
+							<i class="fas fa-mouse-pointer"></i>
+						</div>
 					</div>
-					<div class="project">
-
+					<div class="project jwlia">
+						<div class="mask">
+							<span>JWLIA</span>
+							<i class="fas fa-mouse-pointer"></i>
+						</div>
 					</div>
 				</div>
 			</section>
 
 			<section id="contact" class="contactClass"> <!-- Simple material design for the contact -->
-				<h3>Contact</h3>
-				<span>Let's Connect!</span>
+				<h3 class="sectionTitle">Contact</h3>
+				<!-- <span>Let's Connect!</span> -->
 				<p>If you have any questions or comments or just want to have a chat, Please reach out!</p>
 				<form class="" action="index.html" method="post">
-					<input type="text" name="visitorName" placeholder="Name">
-					<input type="text" name="visitorContact" placeholder="Email / Phone">
-					<input type="text" name="visitorMessage" placeholder="Message">
-					<input type="submit" name="formSubmit" value="Submit">
+					<div class="">
+						<input class="visitorName" type="text" name="visitorName" placeholder="Name">
+						<input class="visitorContact" type="text" name="visitorContact" placeholder="Email / Phone" required>
+					</div>
+					<div class="visitorMsgDiv">
+							<textarea class="visitorMessage" name="visitorMessage" rows="8" cols="80"></textarea>
+					</div>
+					<div class="visitorSubmitDiv">
+						<input class="visitorSubmit" type="submit" name="formSubmit" value="Submit">
+					</div>
+
 				</form>
 			</section>
 		</main>
