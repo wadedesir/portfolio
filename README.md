@@ -3,7 +3,7 @@ Had to sit down this week and create something nice for me this time. Came up wi
 
 **Link to project:** http://desir.dev/
 
-![alt tag](./img/github.png)
+![alt tag](https://i.ibb.co/47C61Kh/github.png)
 
 ## How It's Made:
 
