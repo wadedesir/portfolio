@@ -38,16 +38,23 @@ body {
   line-height: 1.4;
   font-family: 'Poppins', Arial, sans-serif;
   /* font-weight: 200; */
+  /* padding-right: 5%; */
+  background-color: #1a1f2c;
+  color: white;
 }
-
+a{
+  text-decoration: none;
+  color: white;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 100vh;
+  background-color: inherit;
   /* background-image: url('../../img/bg1.jpg'); */
   /* background-position: center; */
   /* background-size: contain; */
@@ -59,18 +66,18 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* position: fixed; */
 }
 
 #diamond{
-  background: black;
+  background: white;
 
   clip-path: polygon(50% 0%,90% 50%,50% 100%,10% 50%);
   /* position: fixed; */
-  /* width: 32%; */ /* Fixed Width*/
-  width: 80%;
-  height: 80%;
+  /* width: 32%; */
+  width: 90%;
+  height: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,45 +90,47 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 98%;
-  height: 98%;
+  width: 95%;
+  height: 95%;
   /* position: fixed; */
 }
 
 
 .headerRight{
   flex: 2 1 60%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: inline-flex;
   flex-direction: column;
 }
 
 .headerRight div{
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .animatedTitle{
-  flex: 4 1 100px;
+  flex: 1 1 10%;
   display: flex;
   justify-content: flex-end;
   margin-right: 9%;
 }
 .title{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   font-size: 1.5rem;
   font-weight: bold;
   display: flex;
   align-items: center;
+  color: white;
 }
 .headerInfo{
-  flex: 1 1 500px;
+  flex: 1 1 65%;
   display: flex;
   flex-direction: column;
-
+  justify-content: center;
 }
 .smallName{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   font-size: 1.5rem;
+  color: white;
 }
 .smallName span{
   color: orange;
@@ -130,57 +139,69 @@ header {
 }
 .firstName,
 .lastName{
-  border: 1px solid black;
+  color: white;
+  /* border: 1px solid black; */
   font-size: 10rem;
   margin-left: 5%;
   font-weight: bold;
+  /* vertical-align: bottom; */
   /* font-weight: */
 }
 .lastName{
   margin-left: 20%;
 }
 .socials{
-  flex: 3 1 100px;
+  flex: 1 1 10%;
   display: flex;
 }
 .socials ul{
   width: 100%;
   display: flex;
   flex-direction: row;
-  border: 1px solid blue;
-  justify-content: center;
+  /* border: 1px solid blue; */
+  justify-content: flex-start;
+  padding-left: 20%;
   align-items: center;
 }
 .socials li{
   margin: 1%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 10%;
-  text-align: center;
+  text-align: left;
+
 }
 .socials i{
   font-size: 3rem;
+  color: white;
 }
 .links{
-  flex: 2 1 200px;
+  flex: 1 1 15%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .links input{
   margin: 1%;
-  width: 15%;
-  height: 28%;
+  width: 18%;
+  height: 35%;
   border-radius: 7px;
+  background-color: #3a3f4a;
+  border: none;
+  color: white;
+}
+.links input:hover{
+  background-color: slategray;
 }
 
 .leftBanner{
   position: fixed;
   left: 0;
   bottom: 0;
-  /* background-color: red; */
+  background-color: transparent;
   height: 20vh;
   width: 3%;
-  border: 1px solid lightblue;
+
+  /* border: 1px solid lightblue; */
 
   display: flex;
   flex-direction: column;
@@ -190,40 +211,49 @@ header {
 .leftBanner li{
   font-size: 2rem;
   margin: 1%;
+  color: white;
 }
 .rightBanner{
   position: fixed;
   right: 0;
   top: 0;
   height: 100vh;
-  width: 7%;
+  width: 5%;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* border: 1px solid lightblue; */
 }
 
 .rightBanner li{
   margin-top: 3%;
   margin-bottom: 3%;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
+main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 .aboutClass{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 70vh;
   width: 100%;
   display: flex;
   flex-direction: row;
+
 }
 
 .aboutLeft{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   flex: 1 1 40%;
 }
 
 .aboutRight{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   flex: 2 1 60%;
 
   display: flex;
@@ -232,16 +262,16 @@ header {
 
 .profile{
  flex: 2 1 80%;;
- border: 1px solid blue;
+ /* border: 1px solid blue; */
 }
 .profile h3{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   font-size: 3rem;
   font-weight: bold;
   margin-top: 1%;
 }
 .profile h4{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   font-size: 2rem;
   text-align: center;
   margin-top: 3%;
@@ -249,13 +279,14 @@ header {
 .profile p{
   text-align: center;
   font-size: 1.5rem;
-  padding: 2%;
-
+  padding-top: 2%;
+  padding-right: 9%;
+  line-height: 1.8;
 }
 
 .profileExtras{
  flex: 1 1 20%;;
- border: 1px solid blue;
+ /* border: 1px solid blue; */
  display: flex;
  flex-direction: row;
 }
@@ -269,52 +300,53 @@ header {
 }
 .profileExtras span{
   font-size: 1.7rem;
+  color: orange;
 }
 .extrasLeft{
   flex: 1;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 
 }
 .extrasRight{
   flex: 1;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .expClass{
-  height: 80vh;
+  height: 100vh;
+  padding-top: 5%;
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: inline-flex;
   flex-direction: column;
 }
 .sectionTitle{
   flex: 1 1 10%;
-  border: 1px solid red;
-  font-size: 2rem;
+  /* border: 1px solid red; */
+  font-size: 2.5rem;
   font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.experienceTitle{
+  padding-right: 8%;
+}
 .jobContainer{
   flex: 1 1 90%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
 }
-.jobPosition,
-.jobIcons,
-.jobDescription{
-  border: 1px solid blue;
-}
+
 .jobPosition{
-  flex: 1 1 50%;
+  flex: 1 1 40%;
   display: flex;
   flex-direction: row;
 }
 .positions{
   flex: 1 1 95%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 .positions ul{
   display: flex;
@@ -323,7 +355,7 @@ header {
 }
 .positions li{
   flex: 1 1 30%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   font-size: 1.8rem;
   font-weight: 500;
   display: flex;
@@ -333,7 +365,8 @@ header {
 }
 .icons{
   flex: 1 1 5%;
-  border: 1px solid green;
+  border-right: 3px solid orange;
+  /* border: 1px solid green; */
 }
 .icons ul{
   display: flex;
@@ -343,7 +376,7 @@ header {
   justify-content: space-around;
 }
 .icons li{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 90%;
   height: 6%;
   display: flex;
@@ -353,12 +386,12 @@ header {
   background-color: black;
 }
 .icons i{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   font-size: 1.2rem;
   color: white;
 }
 .jobDescription{
-  flex: 1 1 50%;
+  flex: 1 1 60%;
   display: flex;
   flex-direction: column;
 }
@@ -366,7 +399,7 @@ header {
   flex: 1 1 30%;
   display: flex;
   flex-direction: column;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   padding-left: 1%;
 }
 .job h4{
@@ -384,7 +417,7 @@ header {
 
 .skillsClass{
   height: 35vh;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
 }
@@ -399,14 +432,15 @@ header {
     display: none;
 }
 .skillScroll{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   width: 30%;
   height: 80%;
   flex: 0 0 auto;
 }
 
 .portfolioClass{
-  height: 80vh;
+  height: 90vh;
+  padding-top: 5%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -423,12 +457,12 @@ header {
 }
 .portfolioNav li{
   margin: 2%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   font-size: 1.3rem;
 }
 .projectContainer{
   flex: 1 1 90%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -437,7 +471,7 @@ header {
 .project{
   height: 30%;
   width: 22%;
-  border: 1px solid green;
+  /* border: 1px solid black; */
   margin: 2%;
   display: flex;
   align-items: center;
@@ -509,11 +543,11 @@ header {
   align-items: center;
 }
 .contactClass h3{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   flex: 1 1 15%;
 }
 .contactClass span{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   flex: 1 1 10%;
   display: flex;
   align-items: center;
@@ -521,18 +555,14 @@ header {
   font-size: 1.2rem;
 }
 .contactClass p{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   flex: 1 1 5%;
   font-size: 1.1rem;
+  color: orange;
 }
 .contactClass form{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   flex: 1 1 70%;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* flex-wrap: wrap; */
   padding-top: 2%;
   width: 45%;
   /* border: 1px solid blue; */
@@ -541,21 +571,31 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   height: 10%;
 }
 .contactClass input{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* margin: 5%; */
   display: inline-block;
 }
 .visitorName{
   width: 45%;
   height: 100%;
+  border: none;
+  border-bottom: 1px solid orange;
+  outline: none;
+  background-color: inherit;
+  color: white;
 }
 .visitorContact{
   width: 45%;
   height: 100%;
+  border: none;
+  border-bottom: 1px solid orange;
+  outline: none;
+  background-color: inherit;
+  color: white;
 }
 .contactClass .visitorMsgDiv{
   height: 60%;
@@ -566,6 +606,11 @@ header {
   height: 100%;
   text-align: left;
   resize: none;
+  border: none;
+  border-bottom: 1px solid orange;
+  outline: none;
+  background-color: inherit;
+  color: white;
 }
 .contactClass .visitorSubmitDiv{
   height: 15%;
@@ -574,15 +619,29 @@ header {
   height: 70%;
   width: 20%;
   border-radius: 5px;
+  background-color: #3a3f4a;
+  border: none;
+}
+.visitorSubmit:hover{
+  background-color: slategray;
 }
 footer {
 display: flex;
 justify-content: center;
 align-items: center;
 height: 5vh;
-border: 1px solid black;
+border-top: 1px solid orange;
 }
 
+#skills{
+  display: none;
+}
+.query{
+  display: none;
+}
+.clear{
+  display: none;
+}
 /*
 Light:
 whitesmoke with a blue tint for the main background?
@@ -595,3 +654,168 @@ black or button blue section titles
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media (max-width: 1000px) {
+  html{
+    font-size: 11px;
+  }
+  header{
+    padding-right: 5%;
+  }
+  .jobPosition{
+    display: none;
+  }
+  .query{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .profileExtras{
+    flex-direction: column;
+  }
+  #diamond{
+    width: 90%;
+  }
+}
+
+@media (max-width: 850px) {
+  .project{
+    width: 40%;
+    height: 30%;
+  }
+  .contactClass form{
+    width: 55%;
+  }
+  #diamond{
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  header{
+    padding-right: 0;
+  }
+  .aboutLeft{
+    display: none;
+  }
+  .profileExtras{
+    flex-direction: row;
+  }
+  .headerLeft{
+    display: none;
+  }
+  #diamond{
+    display: none;
+  }
+  .rightBanner{
+    width: 8%;
+  }
+  .leftBanner{
+    width: 5%;
+  }
+  .job{
+    padding-right: 3%;
+  }
+}
+
+@media (max-width: 650px) {
+  html{
+    /* font-size: 10px; */
+  }
+  .contactClass form{
+    width: 65%;
+  }
+  .leftBanner{
+    display: none;
+  }
+  .portfolioClass{
+    height: 30vh;
+  }
+  .projectContainer{
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .projectContainer::-webkit-scrollbar {
+      display: none;
+  }
+  .horoscope,
+  .jwlia{
+    display: flex;
+  }
+  .project{
+    width: 40%;
+    height: 80%;
+    flex: 0 0 auto;
+  }
+  .clear{
+    display: flex;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 550px) {
+  header{
+    padding-right: 5%;
+  }
+  .job{
+    padding-right: 5%;
+  }
+  .project{
+    width: 50%;
+  }
+  .contactClass p{
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  html{
+    font-size: 10px;
+  }
+  .contactClass form{
+    width: 75%;
+  }
+  .project{
+    width: 65%;
+  }
+}
+
+@media (max-width: 500px) {
+  .profileExtras{
+    display: none;
+  }
+  .rightBanner{
+    width: 10%;
+  }
+  header{
+    padding-right: 10%;
+  }
+}
+
+@media (max-width: 400px) {
+  .contactClass form{
+    width: 80%;
+  }
+  .rightBanner{
+    width: 14%;
+  }
+}
+@media (max-width: 320px) {
+  htm{
+    font-size: 8px;
+  }
+}
+@media (max-height: 650px) {
+  .profileExtras{
+    display: none;
+  }
+  .plexim{
+    display: none;
+  }
+}
+
+@media (max-height: 500px) {
+  html{
+    font-size: 9px;
+  }
+}
