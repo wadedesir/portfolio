@@ -144,11 +144,14 @@ header {
   font-size: 10rem;
   margin-left: 5%;
   font-weight: bold;
+  border-bottom: 3px solid orange;
+  width: 43%;
   /* vertical-align: bottom; */
   /* font-weight: */
 }
 .lastName{
   margin-left: 20%;
+  width: 37%;
 }
 .socials{
   flex: 1 1 10%;
@@ -173,6 +176,9 @@ header {
 .socials i{
   font-size: 3rem;
   color: white;
+}
+.socials i:hover{
+  color: orange;
 }
 .links{
   flex: 1 1 15%;
@@ -213,6 +219,13 @@ header {
   margin: 1%;
   color: white;
 }
+.leftBanner li i:hover{
+  color: orange;
+}
+.bannerName{
+  color: orange;
+  font-weight: bold;
+}
 .rightBanner{
   position: fixed;
   right: 0;
@@ -231,6 +244,9 @@ header {
   margin-bottom: 3%;
   font-size: 2.5rem;
   text-align: center;
+}
+.rightBanner li i:hover{
+  color: orange;
 }
 
 main{
@@ -383,7 +399,7 @@ main{
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: black;
+  background-color: transparent;
 }
 .icons i{
   /* border: 1px solid black; */
@@ -487,7 +503,7 @@ main{
   align-items: center;
   width: 80%;
   height: 80%;
-  background-color: lightgray;
+  background-color: rgba(255, 165, 0, 0.6);
   visibility: hidden;
 }
 .project span{
@@ -621,6 +637,7 @@ main{
   border-radius: 5px;
   background-color: #3a3f4a;
   border: none;
+  color: white;
 }
 .visitorSubmit:hover{
   background-color: slategray;
