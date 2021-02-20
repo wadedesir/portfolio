@@ -81,18 +81,20 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-image: url("../../img/pf1.jpg");
+  width: 50%;
+  height: 50%;
+  border-radius: 50%; */
 }
 
 .profilePic{
   clip-path: polygon(50% 0%,90% 50%,50% 100%,10% 50%);
   background-image: url("../../img/pf1.jpg");
-  /* background-color: red; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 95%;
   height: 95%;
-  /* position: fixed; */
 }
 
 
@@ -183,20 +185,27 @@ header {
 .links{
   flex: 1 1 15%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  padding-left: 20%;
 }
-.links input{
+.linksInput{
   margin: 1%;
-  width: 18%;
-  height: 35%;
-  border-radius: 7px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
   background-color: #3a3f4a;
   border: none;
   color: white;
 }
-.links input:hover{
+.linksInput:hover{
   background-color: slategray;
+}
+.linksAnchor{
+  /* border: 1px solid red; */
+  width: 22%;
+  height: 40%;
+  padding-right: 3%;
 }
 
 .leftBanner{
@@ -504,7 +513,6 @@ main{
   align-items: center;
   width: 80%;
   height: 80%;
-  background-color: rgba(255, 165, 0, 0.6);
   visibility: hidden;
 }
 .project span{
@@ -651,17 +659,36 @@ height: 5vh;
 border-top: 1px solid orange;
 }
 
+::-webkit-scrollbar{
+  width: 8px;
+  /* height: 70px; */
+  /* background: orange; */
+}
+::-webkit-scrollbar-track {
+  background: darkorange;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1a1f2c;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 #skills{
   display: none;
 }
 .query{
-  display: none;
+  display: none; /* Style changes which don't come into play until Media queries are set */
 }
 .clear{
-  display: none;
+  display: none; /* ^^^ */
 }
+.projLink{
+  background-color: rgba(255, 165, 0, 0.6);
+}
+/*  */
 /*
-Light:
 whitesmoke with a blue tint for the main background?
 deeper sky blue f or buttons
 white or grey social media.
