@@ -275,6 +275,7 @@ main{
 .aboutLeft{
   /* border: 1px solid red; */
   flex: 1 1 40%;
+  display: none;
 }
 
 .aboutRight{
@@ -291,6 +292,7 @@ main{
 }
 .profile h3{
   /* border: 1px solid blue; */
+  text-align: center;
   font-size: 3rem;
   font-weight: bold;
   margin-top: 1%;
@@ -307,6 +309,8 @@ main{
   padding-top: 2%;
   padding-right: 9%;
   line-height: 1.8;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .profileExtras{
@@ -319,6 +323,7 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .profileExtras p{
   font-size: 1.3rem;
