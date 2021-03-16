@@ -48,8 +48,8 @@ border: 2px solid black;
   justify-content: center;
 }
 .visuals img{
-  height: 70%;
-  width: 70%;
+  max-height: 70%;
+  max-width: 70%;
 }
 .headerInfo{
   margin-top: 1%;
