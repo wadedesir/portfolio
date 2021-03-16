@@ -1,0 +1,95 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  font-size: 10px;
+}
+body {
+  line-height: 1.4;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+height: 100vh;
+width: 100%;
+border: 2px solid black;
+}
+.visuals{
+  border: 1px solid black;
+  height: 60%;
+  background-image: url('../../img/blob.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.visuals img{
+  height: 70%;
+  width: 70%;
+}
+.headerInfo{
+  margin-top: 1%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myName{
+  font-size: 6rem;
+  font-weight: bold;
+}
+.animatedTitle{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.title{
+  font-size: 2rem;
+  border: 3px solid black;
+}
+.scrollAnimation{
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.socials{
+  display: none;
+}
+.links{
+  display: none;
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
