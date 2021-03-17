@@ -661,7 +661,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 5vh;
-border-top: 1px solid orange;
+/* border-top: 1px solid orange; */
 }
 
 ::-webkit-scrollbar{
