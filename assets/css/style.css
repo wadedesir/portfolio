@@ -66,6 +66,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: drop-shadow(-1px 1px 10px orange);
   /* border: 1px solid red; */
   /* position: fixed; */
 }
@@ -222,6 +223,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 .leftBanner li{
   font-size: 2rem;
@@ -246,6 +248,7 @@ header {
   flex-direction: column;
   justify-content: center;
   /* border: 1px solid lightblue; */
+  display: none;
 }
 
 .rightBanner li{
@@ -661,7 +664,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 5vh;
-border-top: 1px solid orange;
+/* border-top: 1px solid orange; */
 }
 
 ::-webkit-scrollbar{
