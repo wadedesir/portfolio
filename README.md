@@ -1,5 +1,5 @@
 # Personal Portfolio
-Had to sit down this week and create something nice for me this time. Came up with something original with a design of my own. Really glad how it came out. Take a look and if you have any feedback feel free to use the form on the site to leave it.
+Decided to sit down this week and create a website. Came up with something original with a design of my own. Really glad how it came out. Take a look and if you have any feedback feel free to use the form on the site to leave it.
 
 **Link to project:** http://desir.dev/
 
