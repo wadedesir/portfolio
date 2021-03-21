@@ -3,7 +3,7 @@ Decided to sit down this week and create a website. Came up with something origi
 
 **Link to project:** http://desir.dev/
 
-<!-- ![alt tag](https://i.ibb.co/47C61Kh/github.png) -->
+![alt tag](https://i.ibb.co/47C61Kh/github.png)
 
 ## How It's Made:
 
