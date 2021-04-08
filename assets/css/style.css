@@ -294,8 +294,8 @@ main{
 }
 
 .profile{
- flex: 2 1 50%;;
- /* border: 1px solid blue; */
+ /* flex: 2 1 50%;; */
+ border: 1px solid blue;
 }
 .profile h3{
   /* border: 1px solid blue; */
@@ -321,23 +321,25 @@ main{
   padding-right: 5%;
   display: flex;
   justify-content: center;
+  line-height: 2;
 }
 
 .profileExtras{
- flex: 1 1 50%;;
- /* border: 1px solid blue; */
+ /* flex: 1 1 50%;; */
+ border: 1px solid blue;
  display: flex;
  /* flex-direction: row; */
 }
-.profileExtras div{
+.extrasLeft div{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   /* border: 1px solid red; */
 }
 .profileExtras p{
   font-size: 1.3rem;
+  /* text-align: center; */
 }
 .profileExtras span{
   font-size: 1.7rem;
