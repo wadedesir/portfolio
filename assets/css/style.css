@@ -295,7 +295,7 @@ main{
 
 .profile{
  /* flex: 2 1 50%;; */
- border: 1px solid blue;
+ /* border: 1px solid blue; */
 }
 .profile h3{
   /* border: 1px solid blue; */
@@ -326,7 +326,7 @@ main{
 
 .profileExtras{
  /* flex: 1 1 50%;; */
- border: 1px solid blue;
+ /* border: 1px solid blue; */
  display: flex;
  /* flex-direction: row; */
 }
