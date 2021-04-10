@@ -16,7 +16,7 @@
   --grey-full: #3a3f4a;
   --grey-alt: slategray;
   --text-white: white;
-  /* --color-plain: #7e7d7d; */
+  --color-plain-alt: #7e7d7d;
   --color-plain: white;
 }
 
@@ -639,11 +639,13 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  /* border: 1px solid #b8a07e; */
+  border: 1px solid var(--grey-full);
 }
 
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
+  /* background-color: #b8a07e; */
+  background-color: var(--project-card-bg);
 }
 
 /*--------------------------------------------------------------
@@ -1125,7 +1127,8 @@ blockquote {
 
 #footer .socials-media ul li a {
   font-size: 24px;
-  color: #999;
+  /* color: #999; */
+  color: var(--color-plain-alt);
   letter-spacing: 0.1em;
   font-weight: 500;
   background: transparent;
@@ -1134,7 +1137,8 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  /* color: #b8a07e; */
+  color: var(--orange-full);
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -1166,6 +1170,9 @@ blockquote {
   color: var(--orange-full);
 }
 
+#contact .contact-details p{
+  color: var(--orange-full);
+}
 
 /* https://codepen.io/osorina/pen/PQdMOO */
 .lines{
