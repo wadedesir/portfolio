@@ -1,311 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-  	<meta charset="utf-8">
-  	<meta name="description" content="Meet Me!">
-  	<meta name="keywords" content="portfolio, wedefegerson, resume, desir, wade">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- external CSS link -->
-		<title>Wade Desir</title>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="assets/fontawesome/css/all.css"> <!-- stylesheet for all icons -->
-		<link rel="stylesheet" href="assets/css/reset.css">
-		<link rel="stylesheet" href="assets/css/style.css">
-	</head>
-	<body>
+  <title>Wade Desir</title>
+  <meta content="Hi, I'm Wade" name="description">
+  <meta content="portfolio, wedefegerson, resume, desir, wade" name="keywords">
 
-		<header id="home">
-			<section class="headerLeft">
-				<div id="diamond">
-					<div class="profilePic">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-					</div>
-				</div>
-			</section>
-			<section class="headerRight">
-				<div class="animatedTitle">
-					<h2 class="title">Software Engineer</h2> <!-- Title will be animated with different items. -->
-				</div>
-				<div class="headerInfo">
-					<!-- <p class="smallName"><span>Hi.</span> My name is Wedefegerson Desir, but you can just call me:</p> -->
-					<h1 class="firstName">Wade</h1>
-					<h1 class="lastName">Đesir</h1>
-				</div>
-				<div class="socials">
-					<ul>
-						<li><a href="https://twitter.com/wadedesir" target="_blank"><i class="fab fa-twitter"></i></a></li>
-						<li><a href="https://github.com/wadedesir" target="_blank"><i class="fab fa-github"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/wadedesir/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-					</ul>
-				</div>
-				<div class="links">
-					<a class="linksAnchor" href="#about"><input class="linksInput" type="button" name="meetMe" value="Meet Me"></a>
-					<a class="linksAnchor" href="https://drive.google.com/uc?export=download&id=10Og11sV0oAOgoHXll0OiPufE3IXtEiZb" target="_blank"><input class="linksInput" type="button" name="downloadCV" value="Download CV"></a>
-					<a class="linksAnchor" href="#contact"><input class="linksInput" type="button" name="hireMe" value="Hire Me"></a>
-				</div>
-			</section>
-		</header>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i" rel="stylesheet">
 
-		<section class="leftBanner"> 	<!-- Social Media Links // Only becomes activated after user scrolls past them -->
-			<ul>
-				<li><a href="https://twitter.com/wadedesir" target="_blank"><i class="fab fa-twitter"></i></a></li>
-				<li><a href="https://github.com/wadedesir" target="_blank"><i class="fab fa-github"></i></a></li>
-				<li><a href="https://www.linkedin.com/in/wadedesir/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-			</ul>
-		</section>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-		<section class="rightBanner"> 	<!-- Page Navigation -->
-			<!-- <h3>Wade</h3> -->
-			<nav>
-				<ul id="mainNav">
-					<!-- <li class="bannerName">WĐ</li> -->
-					<!-- <li><i class="fas fa-moon"></i></li> -->
-					<!-- <li><i class="fas fa-sun"></i></li> -->
-					<li><a href="#home"><i class="fas fa-home nHome"></i></a></li>
-					<li><a href="#about"><i class="fas fa-info-circle nInfo"></i></a></li>
-					<li><a href="#experience"><i class="fas fa-suitcase nSuitcase"></i></a></li>
-					<!-- <li><a href="#skills"></a>Skills</li> -->
-					<li><a href="#portfolio"><i class="fas fa-file-code nCode"></a></i></li>
-					<li><a href="#contact"><i class="fas fa-envelope nContact"></i></a></li>
-				</ul>
-			</nav>
-		</section>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-		<main>
-			<section id="portfolio" class="portfolioClass"> <!-- Projects layed out in horizontal or vertical cards -->
-				<div class="sectionTitle">
-					<h3>Portfolio</h3>
-				</div>
-				<nav class="portfolioNav">
-					<ul>
-						<li>Projects</li>
-						<li>Website Imitations</li>
-						<li>All</li>
-					</ul>
-				</nav>
+</head>
 
-				<div class="projectContainer">
-					<div class="project clear">
+<body>
 
-					</div>
-					<div class="project clear">
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
 
-					</div>
-					<div class="project clear">
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      <!-- Uncomment below if you prefer to use an text logo -->
+      <h1 class="logo"><a href="index.html"></a></h1>
 
-					</div>
-					<div class="project clear">
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link  scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
-					</div>
-					<div class="project clear">
+    </div>
+  </header><!-- End Header -->
 
-					</div>
-					<div class="project todo">
-						<a class="mask projLink" href="portfolio/to-do-list/toDo.html">
-							<div class="mask">
-								<span>To Do List</span>
-								<i class="fas fa-mouse-pointer"></i>
-							</div>
-						</a>
-					</div>
-					<div class="project nyt">
-						<a class="mask projLink" href="portfolio/nyt/nyt.html">
-						<div class="mask">
-							<span>New York Times</span>
-							<i class="fas fa-mouse-pointer"></i>
-						</div>
-						</a>
-					</div>
-					<div class="project lvlgnd">
-						<a class="mask projLink" href="portfolio/levelGround/levelGround.html">
-						<div class="mask">
-							<span>Level Ground</span>
-							<i class="fas fa-mouse-pointer"></i>
-						</div>
-						</a>
-					</div>
-					<div class="project horoscope">
-						<a class="mask projLink" href="portfolio/horoscope/horoscope.html">
-						<div class="mask">
-							<span>Horoscope</span>
-							<i class="fas fa-mouse-pointer"></i>
-						</div>
-						</a>
-					</div>
-					<div class="project huffpo">
-						<a class="mask projLink" href="portfolio/huffpo/huffPo.html">
-						<div class="mask">
-							<span>Huffington Post</span>
-							<i class="fas fa-mouse-pointer"></i>
-						</div>
-						</a>
-					</div>
-					<div class="project jwlia">
-						<a class="mask projLink" href="portfolio/jwlia/jwlia.html">
-						<div class="mask">
-							<span>JWLIA</span>
-							<i class="fas fa-mouse-pointer"></i>
-						</div>
-						</a>
-					</div>
-					<div class="project clear">
+  <!-- ======= Hero Section ======= -->
+  <div class="home fake">
+    <div class="lines">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+  <div id="hero" class="home">
 
-					</div>
-				</div>
-			</section>
+    <div class="container">
+      <div class="hero-content">
+        <h1 id="fullName">Wade Đesir</h1>
+        <h3 class="titlesTyped"><span class="typed" data-typed-items="Designer, Developer, Freelancer"></span></h3>
+        <!-- <p>Designer, Developer, Freelancer, Photographer</p> -->
 
-			<section id="about" class="aboutClass">
-				<!-- <div class="aboutLeft"> -->
-					<!-- Placeholder Space for my profile pic -->
-				<!-- </div> -->
-				<h3 class="aboutTitle">About Me</h3>
-				<div class="aboutRight">
-					<div class="profile">
+        <ul class="list-unstyled list-social d-flex justify-content-center">
+          <li><a href="https://twitter.com/wadedesir" target="_blank"><i class="bi bi-twitter"></i></a></li>
+          <li><a href="https://github.com/wadedesir" target="
+            "><i class="bi bi-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/wadedesir/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+        </ul>
 
-						<!-- <h4>Profile</h4> -->
-						<p>My name is Wedefgerson Desir and I was born in the small country of Haiti. I moved to the USA about at the age of 10 to join my father who wanted to build a better future for our family. After being exposed to new technology I had never seen before, I set out to learn and master this newfound wonder called the computer. I have since learned many programming languages, designed and created many custom projects and worked at a prestigious engineering company. Now my goal is to maximize my knowledge of the computing world as much as possible while sharing my many acquired skills and learning more as I go.</p>
-					</div>
-					<div class="profileExtras">
-						<div class="extrasLeft">
-							<p><span>Name:</span>&nbsp;<a href="">Wade Desir</a></p>
-							<p><span class="spanEmail"><i class="fas fa-envelope"></i></span>&nbsp;<a href="mailto:wadedesir19@gmail.com" target="_blank">wadedesir19@gmail.com</a></p>
-						<!-- </div>
-						<div class="extrasRight"> -->
-							<p><span>Home:</span>&nbsp;Boston, MA, USA.</p>
-							<p><span>Open to work:</span>&nbsp;Yes!</p>
-						<!-- </div> -->
-					</div>
-				</div>
-			</section>
-
-			<section id="experience" class="expClass">
-				<div class="sectionTitle">
-					<h3 class="experienceTitle">Experience</h3>
-				</div>
-				<div class="jobContainer">
-
-					<div class="jobPosition">
-						<div class="positions">
-							<ul>
-								<li>Software Engineer</li>
-								<li>Lead Technician</li>
-								<li>Software Intern</li>
-							</ul>
-						</div>
-
-						<div class="icons">
-							<ul>
-								<li><i class="fas fa-code"></i></li>
-								<li><i class="fas fa-tools"></i></li>
-								<li><i class="fas fa-laptop-code"></i></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="jobDescription">
-						<div class="job">
-							<h3 class="query">Software Engineer</h3>
-							<h4>Resilient Coders</h4>
-							<ul class="duties">
-								<li>Designed and developed full-stack applications across multiple platforms</li>
-								<li>Collaborated with a team of software engineers to create fullstack web applications.</li>
-								<li>Used best practices to meet and fulfill requests before deadline</li>
-								<li>Designed interactive websites with responsive features</li>
-							</ul>
-						</div>
-						<div class="job">
-							<h3 class="query">Lead Technician</h3>
-							<h4>uBreakiFix</h4>
-							<ul class="duties">
-								<li>Managed inventory and ordering of computer, phone and various electronic parts</li>
-								<li>Made sure all back of store technicians were well trained</li>
-								<li>Provided supervision and assistance during repairs and decision making.</li>
-								<li>First point of contact for customers issues related to devices and technical errors</li>
-							</ul>
-						</div>
-						<div class="job plexim">
-							<h3 class="query">Software Intern</h3>
-							<h4>Plexim</h4>
-							<ul class="duties">
-								<li>Designing and implementing of ATmega Code generation tool.</li>
-								<li>Worked in C, Makefile, MATLAB, and Lua to implement Code generation for embedded systems.</li>
-								<li>Carry out quality assurance tests to discover errors and optimize software usability.</li>
-								<li>Designed Launchpad Interface PCB for ATmega 2560 and 328p.</li>
-							</ul>
-						</div>
-					</div>
-
-				</div>
-			</section>
-
-			<section id="skills" class="skillsClass"> <!-- Marquee like section which will be scroll based on user interaction -->
-				<div class="sectionTitle">
-					<h3>Skills</h3>
-				</div>
-				<div class="skillContainer">
-					<div class="skillScroll">
-						<i>icon</i>
-						<span>skill</span>
-						<p>description</p>
-					</div>
-					<div class="skillScroll">
-						<i>icon</i>
-						<span>skill</span>
-						<p>description</p>
-					</div>
-					<div class="skillScroll">
-						<i>icon</i>
-						<span>skill</span>
-						<p>description</p>
-					</div>
-					<div class="skillScroll">
-						<i>icon</i>
-						<span>skill</span>
-						<p>description</p>
-					</div>
-					<div class="skillScroll">
-						<i>icon</i>
-						<span>skill</span>
-						<p>description</p>
-					</div>
-					<div class="skillScroll">
-						<i>icon</i>
-						<span>skill</span>
-						<p>description</p>
-					</div>
-				</div>
-			</section>
+        <div class="hero-links">
+          <!-- <a href="#about"><button class="btn btn-outline-dark">About</button></a> -->
+          <a href="https://drive.google.com/uc?export=download&id=11DtKVwCqGGDyphj5PfJGxEI0wQDZVRed" target="
+          "><button class="btn btn-outline-dark">Download CV</button></a>
+          <a href="#contact"><button class="btn btn-outline-dark">Hire Me</button></a>
+        </div>
 
 
-			<section id="contact" class="contactClass"> <!-- Simple material design for the contact -->
-				<h3 class="sectionTitle">Contact</h3>
-				<!-- <span>Let's Connect!</span> -->
-				<p>If you have any questions or comments or just want to have a chat, Please reach out!</p>
-				<form class="" method="post" data-netlify="true">
-					<div class="">
-						<input class="visitorName" type="text" name="visitorName" placeholder="Name">
-						<input class="visitorContact" type="text" name="visitorContact" placeholder="Email / Phone" required>
-					</div>
-					<div class="visitorMsgDiv">
-							<textarea class="visitorMessage" name="visitorMessage" rows="8" cols="80" placeholder="Message"></textarea>
-					</div>
-					<div class="visitorSubmitDiv">
-						<input class="visitorSubmit" type="submit" name="formSubmit" value="Submit">
-					</div>
+      </div>
 
-				</form>
-			</section>
-		</main>
+      </div>
+    </div>
+  </div><!-- End Hero -->
 
-		<footer>
-			<span>Copyright <i class="far fa-copyright"></i> 2021&nbsp;</span>
-			<span>Wedefegerson Desir</span>
-		</footer>
+  <main id="main">
+    <!-- ======= Portfolio Section ======= -->
+    <div id="portfolio" class="paddsection">
 
-		<script type="text/javascript" src="assets/js/main.js"></script>
-	</body>
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Portfolio</h2>
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Web App</li>
+              <li data-filter=".filter-robot">Robotics</li>
+              <li data-filter=".filter-web">Mockup</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/moodTracker.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Mood Tracker</h4>
+              <p>HTML, CSS, JS, Node.js</p>
+              <!-- <a href="assets/img/portfolio/moodTracker.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <a href="portfolio-details.html" class="details-link" title="More Details"><button class="btn btn-outline-dark">Project Details</button></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-robot">
+            <img src="assets/img/portfolio/povMain2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>POV Display</h4>
+              <p>Machining, Eagle, Particle</p>
+              <!-- <a href="assets/img/portfolio/povMain2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <a href="portfolio-details.html" class="details-link" title="More Details"><button class="btn btn-outline-dark">Project Details</button></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-robot">
+            <img src="assets/img/portfolio/pcbFront.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Launchpad Interface</h4>
+              <p>EagleCad</p>
+              <!-- <a href="assets/img/portfolio/pcbFront.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <a href="portfolio-details.html" class="details-link" title="More Details"><button class="btn btn-outline-dark">Project Details</button></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/nyt.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>New York Times</h4>
+              <p>HTML, CSS</p>
+              <!-- <a href="assets/img/portfolio/nyt.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <a href="portfolio-details.html" class="details-link" title="More Details"><button class="btn btn-outline-dark">Project Details</button></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/nasa.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Nasa API</h4>
+              <p>HTML, CSS, JS</p>
+              <!-- <a href="assets/img/portfolio/nasa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <a href="portfolio-details.html" class="details-link" title="More Details"><button class="btn btn-outline-dark">Project Details</button></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/ticTacToe.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Tic Tac Toe</h4>
+              <p>HTML, CSS, JS</p>
+              <!-- <a href="assets/img/portfolio/ticTacToePlay.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <a href="portfolio-details.html" class="details-link" title="More Details"><button class="btn btn-outline-dark">Project Details</button></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    <!-- End Portfolio Section -->
+
+
+    <!-- ======= About Section ======= -->
+    <div id="about" class="paddsection">
+      <div class="container">
+        <div class="row justify-content-between">
+
+          <div class="col-lg-4 ">
+            <div class="div-img-bg">
+              <div class="about-img">
+                <img src="assets/img/pfCrop.jpg" class="img-responsive" alt="me">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="about-descr">
+
+              <p class="p-heading">I started my engineering career early. </p>
+              <p class="separator">Because I attended a vocational High School, I was able to focus on engineering for part of my day. This resulted in me earning a software intern role my senior year. My Journey then led me to creating full-stack web applications and collaborating with wonderful people at Resilient Coders, where I refined my skills into what they are today.</p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <div id="services">
+      <div class="container">
+
+        <div class="services-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-cpu"></i>
+                <span>PCB DESIGN</span>
+                <p class="separator">Experience in designing Printed Circuit board sketches, layouts, and schematics in various PCB CAD Software.</p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-braces"></i>
+                <span>WEB DESIGN</span>
+                <p class="separator">Ability to create fullstack web applications using various web Frameworks </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-bootstrap"></i>
+                <span>BOOTSTRAP</span>
+                <p class="separator">Can create complete web applications with the use of the Bootstrap web framework. </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-columns-gap"></i>
+                <span>FRONT-END</span>
+                <p class="separator">Proficient in HTML, CSS and client-side Javascript for interactive features.</p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-server"></i>
+                <span>BACK-END</span>
+                <p class="separator">Can utilize databases, APIs, Node.js and MongoDB in creating fullstack web applications.</p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <!-- <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-calendar4-week"></i>
+                <span>PHOTOGRAPHY</span>
+                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+              </div>
+            </div> -->
+            <!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </div><!-- End Services Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <div id="contact" class="paddsection">
+      <div class="container">
+        <div class="contact-block1">
+          <div class="row">
+
+            <div class="col-lg-6">
+              <div class="contact-contact">
+
+                <h2 class="mb-30">GET IN TOUCH</h2>
+
+                <ul class="contact-details">
+                  <li><p>If you have any questions or comments or just want to have a chat, Please reach out!</p></li>
+                  <li><span>Boston, MA, United States</span></li>
+                  <li><span><a href="mailto:wadedesir19@gmail.com" target="_blank">wadedesir19@gmail.com</a></span></li>
+                </ul>
+
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row gy-3">
+
+                  <div class="col-lg-6">
+                    <div class="form-group contact-block1">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                  </div>
+
+                  <div class="mt-0">
+                    <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                  </div>
+
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
