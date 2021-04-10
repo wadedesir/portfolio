@@ -36,7 +36,7 @@
 
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
       <!-- Uncomment below if you prefer to use an text logo -->
-      <h1 class="logo"><a href="index.html">Wade</a></h1>
+      <h1 class="logo"><a href="index.html"></a></h1>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -72,7 +72,13 @@
 
   <!-- ======= Hero Section ======= -->
   <div class="home fake">
-
+    <div class="lines">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
   </div>
   <div id="hero" class="home">
 
@@ -82,7 +88,7 @@
         <h3 class="titlesTyped"><span class="typed" data-typed-items="Designer, Developer, Freelancer"></span></h3>
         <!-- <p>Designer, Developer, Freelancer, Photographer</p> -->
 
-        <ul class="list-unstyled list-social">
+        <ul class="list-unstyled list-social d-flex justify-content-center">
           <li><a href="https://twitter.com/wadedesir" target="_blank"><i class="bi bi-twitter"></i></a></li>
           <li><a href="https://github.com/wadedesir" target="
             "><i class="bi bi-github"></i></a></li>
@@ -96,23 +102,17 @@
           <a href="#contact"><button class="btn btn-outline-dark">Hire Me</button></a>
         </div>
 
-        <div class="hero-content slidesAnim">
-          <div class="slides slideDown">
 
-          <div><img src="assets/img/portfolio/nyt.png" height="160px" width="330px"></div>
-
-          <div><img src="assets/img/portfolio/levelGround.png" height="160px" width="330px"></div>
-
-          <!-- <div><img src="assets/img/portfolio/jwlia.png" height="160px" width="330px"></div> -->
-
-          <!-- <div><img src="assets/img/portfolio/huffpo.png" height="160px" width="330px"></div> -->
-
-          <!-- <div><img src="assets/img/portfolio/horoscope.png" height="160px" width="330px"></div> -->
-
-          </div>
-        </div>
       </div>
+      <!-- <div class="hero-content slidesAnim">
+        <div class="slides slideDown">
 
+        <div><img src="assets/img/portfolio/nyt.png" height="160px" width="330px"></div>
+
+        <div><img src="assets/img/portfolio/levelGround.png" height="160px" width="330px"></div>
+
+        </div>
+      </div> -->
     </div>
   </div><!-- End Hero -->
 
@@ -122,7 +122,7 @@
 
       <div class="container">
         <div class="section-title text-center">
-          <h2>My Portfolio</h2>
+          <h2>Portfolio</h2>
         </div>
       </div>
 
@@ -132,9 +132,9 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app">Web App</li>
+              <li data-filter=".filter-robot">Robotics</li>
+              <li data-filter=".filter-web">Mockup</li>
             </ul>
           </div>
         </div>
@@ -142,62 +142,62 @@
         <div class="row portfolio-container">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/moodTracker.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Mood Tracker</h4>
+              <p>HTML, CSS, JS, Node.js</p>
+              <!-- <a href="assets/img/portfolio/moodTracker.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <a href="portfolio-details.html" class="details-link" title="More Details"><button class="btn btn-outline-dark">Project Details</button></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-robot">
+            <img src="assets/img/portfolio/povMain2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>POV Display</h4>
+              <p>Machining, Eagle, Particle</p>
+              <!-- <a href="assets/img/portfolio/povMain2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <a href="portfolio-details.html" class="details-link" title="More Details"><button class="btn btn-outline-dark">Project Details</button></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-robot">
+            <img src="assets/img/portfolio/pcbFront.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Launchpad Interface</h4>
+              <p>EagleCad</p>
+              <!-- <a href="assets/img/portfolio/pcbFront.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <a href="portfolio-details.html" class="details-link" title="More Details"><button class="btn btn-outline-dark">Project Details</button></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/nyt.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>New York Times</h4>
+              <p>HTML, CSS</p>
+              <!-- <a href="assets/img/portfolio/nyt.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <a href="portfolio-details.html" class="details-link" title="More Details"><button class="btn btn-outline-dark">Project Details</button></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/nasa.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Nasa API</h4>
+              <p>HTML, CSS, JS</p>
+              <!-- <a href="assets/img/portfolio/nasa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <a href="portfolio-details.html" class="details-link" title="More Details"><button class="btn btn-outline-dark">Project Details</button></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/ticTacToe.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Tic Tac Toe</h4>
+              <p>HTML, CSS, JS</p>
+              <!-- <a href="assets/img/portfolio/ticTacToePlay.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <a href="portfolio-details.html" class="details-link" title="More Details"><button class="btn btn-outline-dark">Project Details</button></a>
             </div>
           </div>
 
@@ -244,51 +244,52 @@
 
             <div class="swiper-slide">
               <div class="services-block">
-                <i class="bi bi-briefcase"></i>
-                <span>UI/UX DESIGN</span>
-                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+                <i class="bi bi-cpu"></i>
+                <span>PCB DESIGN</span>
+                <p class="separator">Experience in designing Printed Circuit board sketches, layouts, and schematics in various PCB CAD Software.</p>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="services-block">
-                <i class="bi bi-card-checklist"></i>
-                <span>BRAND IDENTITY</span>
-                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="services-block">
-                <i class="bi bi-bar-chart"></i>
+                <i class="bi bi-braces"></i>
                 <span>WEB DESIGN</span>
-                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+                <p class="separator">Ability to create fullstack web applications using various web Frameworks </p>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="services-block">
-                <i class="bi bi-binoculars"></i>
-                <span>MOBILE APPS</span>
-                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+                <i class="bi bi-bootstrap"></i>
+                <span>BOOTSTRAP</span>
+                <p class="separator">Can create complete web applications with the use of the Bootstrap web framework. </p>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="services-block">
-                <i class="bi bi-brightness-high"></i>
-                <span>Analytics</span>
-                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+                <i class="bi bi-columns-gap"></i>
+                <span>FRONT-END</span>
+                <p class="separator">Proficient in HTML, CSS and client-side Javascript for interactive features.</p>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-server"></i>
+                <span>BACK-END</span>
+                <p class="separator">Can utilize databases, APIs, Node.js and MongoDB in creating fullstack web applications.</p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <!-- <div class="swiper-slide">
               <div class="services-block">
                 <i class="bi bi-calendar4-week"></i>
                 <span>PHOTOGRAPHY</span>
                 <p class="separator">To an English person, it will seem like simplified English,told me what </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div> -->
+            <!-- End testimonial item -->
 
           </div>
           <div class="swiper-pagination"></div>
