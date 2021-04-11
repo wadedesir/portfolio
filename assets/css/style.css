@@ -452,14 +452,14 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  /* background: url("../img/home-bg.jpg") repeat scroll center center/cover; */
+  background: url("../img/home.jpg") repeat scroll center center/cover;
   height: 100vh;
   width: 100%;
 }
 
 #hero .hero-content {
   height: 100vh;
-  text-align: center;
+  text-align: left;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -485,7 +485,7 @@ p {
 }
 
 .hero-content .list-social li {
-  /* float: left; */
+  float: left;
   margin-right: 20px;
 }
 
@@ -776,7 +776,8 @@ p {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(75, 74, 74, 0.08);
+  /* box-shadow: 0px 0 30px rgba(75, 74, 74, 0.08); */
+  box-shadow: 0px 0 30px var(--orange-light);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -1179,6 +1180,13 @@ blockquote {
 }
 
 .portfolioActive{
+  color: var(--orange-full);
+}
+
+.portfolio-description a{
+  color: var(--orange-light);
+}
+.portfolio-description a:hover{
   color: var(--orange-full);
 }
 /* https://codepen.io/osorina/pen/PQdMOO */
