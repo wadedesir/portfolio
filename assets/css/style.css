@@ -933,7 +933,8 @@ p {
 
 .php-email-form .loading {
   display: none;
-  background: #fff;
+  /* background: #fff; */
+  background: var(--bs-orange);
   text-align: center;
   padding: 15px;
   margin-bottom: 15px;
