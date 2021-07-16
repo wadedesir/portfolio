@@ -1638,3 +1638,10 @@ blockquote {
     margin-right: 0;
   }
 }
+
+.portfolio-info li a {
+  color: orange;
+}
+
+.portfolio-info li a:hover {
+  color: white;
