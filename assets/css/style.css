@@ -93,7 +93,7 @@ p {
   border-radius: 0;
   color: #fff;
   font-size: 12px;
-  height: 50px;
+  max-height: 50px;
   line-height: 50px;
   padding: 0 30px;
   text-transform: uppercase;
@@ -174,7 +174,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #b8a07e;
+  background: orange;
   width: 40px;
   height: 40px;
   border-radius: 4px;
