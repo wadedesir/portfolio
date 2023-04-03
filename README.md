@@ -6,4 +6,4 @@
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript. Kept it very Vanilla
+**Tech used:** HTML, CSS, JavaScript.
